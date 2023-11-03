@@ -3,8 +3,8 @@ import {
   Module,
   OnApplicationBootstrap,
   OnModuleDestroy,
-  OnModuleInit
-} from "@nestjs/common";
+  OnModuleInit,
+} from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AaaModule } from './aaa/aaa.module';

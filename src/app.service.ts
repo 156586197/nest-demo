@@ -1,4 +1,9 @@
-import { Injectable, OnApplicationBootstrap, OnModuleInit, Param } from "@nestjs/common";
+import {
+  Injectable,
+  OnApplicationBootstrap,
+  OnModuleInit,
+  Param,
+} from '@nestjs/common';
 
 @Injectable()
 export class AppService implements OnModuleInit, OnApplicationBootstrap {

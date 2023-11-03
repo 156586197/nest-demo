@@ -15,18 +15,18 @@ import {
   UploadedFiles,
   UseFilters,
   UseGuards,
-  UseInterceptors
-} from "@nestjs/common";
-import { AnyFilesInterceptor } from "@nestjs/platform-express";
-import { AaaService } from "./aaa.service";
-import { CreateAaaDto } from "./dto/create-aaa.dto";
-import { UpdateAaaDto } from "./dto/update-aaa.dto";
-import { Observable } from "rxjs";
-import { AaaException } from "../AaaException";
-import { AaaFilter } from "../aaa.filter";
-import { AaaGuard } from "../aaa.guard";
-import { Roles } from "../roles.decorator";
-import { Role } from "../role";
+  UseInterceptors,
+} from '@nestjs/common';
+import { AnyFilesInterceptor } from '@nestjs/platform-express';
+import { AaaService } from './aaa.service';
+import { CreateAaaDto } from './dto/create-aaa.dto';
+import { UpdateAaaDto } from './dto/update-aaa.dto';
+import { Observable } from 'rxjs';
+import { AaaException } from '../AaaException';
+import { AaaFilter } from '../aaa.filter';
+import { AaaGuard } from '../aaa.guard';
+import { Roles } from '../roles.decorator';
+import { Role } from '../role';
 
 /**
  * 所有钩子都是允许异步实现
